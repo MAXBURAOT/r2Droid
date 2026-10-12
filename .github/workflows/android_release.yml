@@ -112,4 +112,4 @@ jobs:
             native-runtime-manifest-full-${{ github.ref_name }}.json
             native-runtime-manifest-proot-${{ github.ref_name }}.json
           draft: false
-          prerelease: false
+          prerelease: true
