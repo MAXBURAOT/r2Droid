@@ -111,5 +111,5 @@ jobs:
             native-runtime-source-lock-${{ github.ref_name }}.json
             native-runtime-manifest-full-${{ github.ref_name }}.json
             native-runtime-manifest-proot-${{ github.ref_name }}.json
-          draft: false
+          draft: true
           prerelease: true
